@@ -5,8 +5,6 @@ This directory contains the code, derived tables, and model outputs used to proc
 The current release is organized to support **transparency and reproducibility of the computational pipeline** while keeping the repository lightweight during manuscript submission and revision.  
 **Figure image files are intentionally omitted at this stage** and will be added in a later update after manuscript submission and project progression.
 
----
-
 ## Overview
 
 The workflow in this directory proceeds from:
@@ -28,8 +26,6 @@ It currently does **not** include:
 
 - rendered figure image files,
 - raw large intermediate objects not needed for the present release.
-
----
 
 ## Directory structure
 
