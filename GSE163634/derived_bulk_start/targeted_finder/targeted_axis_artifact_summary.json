@@ -1,0 +1,844 @@
+{
+  "gse235063_root": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063",
+  "gse235923_root": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923",
+  "n_model_candidates": 112,
+  "n_calibration_candidates": 29,
+  "top_model_candidates": [
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+      "name": "primary_training_GSE235063_results.txt",
+      "score": 151,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 316,
+        "ilr_prog_vs_mature": 308,
+        "ilr_stem_vs_committed": 477,
+        "log_aux_clp": 216,
+        "log_aux_erybaso": 328,
+        "pc1": 85,
+        "pc2": 83
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+      "name": "malignant_summary_definitions.json",
+      "score": 146,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 12,
+        "ilr_prog_vs_mature": 12,
+        "ilr_stem_vs_committed": 8,
+        "log_aux_clp": 10,
+        "log_aux_erybaso": 10,
+        "pc1": 3,
+        "pc2": 3
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+      "name": "ou_equilibrium_coefficients__full19.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 16,
+        "ilr_prog_vs_mature": 16,
+        "ilr_stem_vs_committed": 16,
+        "log_aux_clp": 12,
+        "log_aux_erybaso": 12,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+      "name": "ou_equilibrium_coefficients__marrow_only.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 16,
+        "ilr_prog_vs_mature": 16,
+        "ilr_stem_vs_committed": 16,
+        "log_aux_clp": 12,
+        "log_aux_erybaso": 12,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+      "name": "ou_equilibrium_coefficients__no_AML23.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 16,
+        "ilr_prog_vs_mature": 16,
+        "ilr_stem_vs_committed": 16,
+        "log_aux_clp": 12,
+        "log_aux_erybaso": 12,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__full19.csv",
+      "name": "ou_equilibrium_plus_subgroup_coefficients__full19.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 32,
+        "ilr_prog_vs_mature": 32,
+        "ilr_stem_vs_committed": 32,
+        "log_aux_clp": 24,
+        "log_aux_erybaso": 24,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__marrow_only.csv",
+      "name": "ou_equilibrium_plus_subgroup_coefficients__marrow_only.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 32,
+        "ilr_prog_vs_mature": 32,
+        "ilr_stem_vs_committed": 32,
+        "log_aux_clp": 24,
+        "log_aux_erybaso": 24,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__no_AML23.csv",
+      "name": "ou_equilibrium_plus_subgroup_coefficients__no_AML23.csv",
+      "score": 144,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 32,
+        "ilr_prog_vs_mature": 32,
+        "ilr_stem_vs_committed": 32,
+        "log_aux_clp": 24,
+        "log_aux_erybaso": 24,
+        "pc1": 5,
+        "pc2": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/training_sample_summary_with_transfer_columns.csv",
+      "name": "training_sample_summary_with_transfer_columns.csv",
+      "score": 140,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 6,
+        "ilr_prog_vs_mature": 5,
+        "ilr_stem_vs_committed": 4,
+        "log_aux_clp": 5,
+        "log_aux_erybaso": 5,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/frozen_sample_transfer_scores.csv",
+      "name": "frozen_sample_transfer_scores.csv",
+      "score": 137,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 6,
+        "ilr_prog_vs_mature": 5,
+        "ilr_stem_vs_committed": 4,
+        "log_aux_clp": 5,
+        "log_aux_erybaso": 5,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/dx_primary_training_sample_level_summary_frozen_transfer.csv",
+      "name": "dx_primary_training_sample_level_summary_frozen_transfer.csv",
+      "score": 117,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 6,
+        "ilr_prog_vs_mature": 5,
+        "ilr_stem_vs_committed": 4,
+        "log_aux_clp": 5,
+        "log_aux_erybaso": 5,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/final_small_model/small_model_coefficients__full19.csv",
+      "name": "small_model_coefficients__full19.csv",
+      "score": 113,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_stem_vs_committed": 32,
+        "log_aux_erybaso": 24,
+        "pc1": 2,
+        "pc2": 2
+      }
+    }
+  ],
+  "top_calibration_candidates": [
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+      "name": "secondary_calibration_GSE235923_results.txt",
+      "score": 135,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 23,
+        "ilr_prog_vs_mature": 20,
+        "ilr_stem_vs_committed": 84,
+        "log_aux_clp": 28,
+        "log_aux_erybaso": 56,
+        "pc1": 16,
+        "pc2": 22
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+      "name": "gse235923_dx_secondary_calibration_table.csv",
+      "score": 134,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 2,
+        "ilr_prog_vs_mature": 1,
+        "ilr_stem_vs_committed": 4,
+        "log_aux_clp": 5,
+        "log_aux_erybaso": 5,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+      "name": "gse235923_dx_secondary_outcomes.csv",
+      "score": 108,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 2,
+        "ilr_prog_vs_mature": 1,
+        "ilr_stem_vs_committed": 4,
+        "log_aux_clp": 5,
+        "log_aux_erybaso": 5
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv",
+      "name": "primary_vs_secondary_comparison_ranges.csv",
+      "score": 100,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_stem_vs_committed": 4,
+        "log_aux_erybaso": 3,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv",
+      "name": "gse235923_dx_secondary_vs_primary_range_comparison.csv",
+      "score": 96,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_stem_vs_committed": 4,
+        "log_aux_erybaso": 3,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+      "name": "gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+      "score": 88,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 2,
+        "ilr_prog_vs_mature": 1,
+        "log_aux_clp": 2,
+        "log_aux_erybaso": 2
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv",
+      "name": "primary_ecotype_pca_loadings.csv",
+      "score": 70,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_prog_vs_mature": 1,
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_projected_ecotype_pcs.csv",
+      "name": "gse235923_dx_projected_ecotype_pcs.csv",
+      "score": 62,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_core4_fractions_by_sample.csv",
+      "name": "gse235923_dx_pred_core4_fractions_by_sample.csv",
+      "score": 60,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_gmp_vs_monodc": 2,
+        "ilr_prog_vs_mature": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_reference_scores.csv",
+      "name": "primary_ecotype_pca_reference_scores.csv",
+      "score": 57,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "pc1": 1,
+        "pc2": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_broad_fractions_by_sample_restricted.csv",
+      "name": "gse235923_dx_pred_broad_fractions_by_sample_restricted.csv",
+      "score": 46,
+      "axis_path_hits": {},
+      "axis_text_hits": {
+        "ilr_prog_vs_mature": 1
+      }
+    },
+    {
+      "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_predicted_sample_summary.csv",
+      "name": "gse235923_dx_predicted_sample_summary.csv",
+      "score": 43,
+      "axis_path_hits": {},
+      "axis_text_hits": {}
+    }
+  ],
+  "top_model_by_axis": {
+    "pc2": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 83
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 3
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      }
+    ],
+    "ilr_stem_vs_committed": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 477
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 8
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      }
+    ],
+    "ilr_gmp_vs_monodc": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 316
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      }
+    ],
+    "log_aux_erybaso": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 328
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 10
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      }
+    ],
+    "log_aux_clp": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 216
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 10
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      }
+    ],
+    "ilr_prog_vs_mature": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 308
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 12
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      }
+    ],
+    "pc1": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt",
+        "name": "primary_training_GSE235063_results.txt",
+        "score": 151,
+        "axis_path_hits": 0,
+        "axis_text_hits": 85
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json",
+        "name": "malignant_summary_definitions.json",
+        "score": 146,
+        "axis_path_hits": 0,
+        "axis_text_hits": 3
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv",
+        "name": "ou_equilibrium_coefficients__full19.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv",
+        "name": "ou_equilibrium_coefficients__marrow_only.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv",
+        "name": "ou_equilibrium_coefficients__no_AML23.csv",
+        "score": 144,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      }
+    ]
+  },
+  "top_calibration_by_axis": {
+    "pc2": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 22
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv",
+        "name": "primary_vs_secondary_comparison_ranges.csv",
+        "score": 100,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "name": "gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "score": 96,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv",
+        "name": "primary_ecotype_pca_loadings.csv",
+        "score": 70,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      }
+    ],
+    "ilr_stem_vs_committed": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 84
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 4
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+        "name": "gse235923_dx_secondary_outcomes.csv",
+        "score": 108,
+        "axis_path_hits": 0,
+        "axis_text_hits": 4
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv",
+        "name": "primary_vs_secondary_comparison_ranges.csv",
+        "score": 100,
+        "axis_path_hits": 0,
+        "axis_text_hits": 4
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "name": "gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "score": 96,
+        "axis_path_hits": 0,
+        "axis_text_hits": 4
+      }
+    ],
+    "ilr_gmp_vs_monodc": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 23
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 2
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+        "name": "gse235923_dx_secondary_outcomes.csv",
+        "score": 108,
+        "axis_path_hits": 0,
+        "axis_text_hits": 2
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "name": "gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "score": 88,
+        "axis_path_hits": 0,
+        "axis_text_hits": 2
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_core4_fractions_by_sample.csv",
+        "name": "gse235923_dx_pred_core4_fractions_by_sample.csv",
+        "score": 60,
+        "axis_path_hits": 0,
+        "axis_text_hits": 2
+      }
+    ],
+    "log_aux_erybaso": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 56
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+        "name": "gse235923_dx_secondary_outcomes.csv",
+        "score": 108,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv",
+        "name": "primary_vs_secondary_comparison_ranges.csv",
+        "score": 100,
+        "axis_path_hits": 0,
+        "axis_text_hits": 3
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "name": "gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "score": 96,
+        "axis_path_hits": 0,
+        "axis_text_hits": 3
+      }
+    ],
+    "log_aux_clp": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 28
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+        "name": "gse235923_dx_secondary_outcomes.csv",
+        "score": 108,
+        "axis_path_hits": 0,
+        "axis_text_hits": 5
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "name": "gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "score": 88,
+        "axis_path_hits": 0,
+        "axis_text_hits": 2
+      }
+    ],
+    "ilr_prog_vs_mature": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 20
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv",
+        "name": "gse235923_dx_secondary_outcomes.csv",
+        "score": 108,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "name": "gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv",
+        "score": 88,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv",
+        "name": "primary_ecotype_pca_loadings.csv",
+        "score": 70,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      }
+    ],
+    "pc1": [
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt",
+        "name": "secondary_calibration_GSE235923_results.txt",
+        "score": 135,
+        "axis_path_hits": 0,
+        "axis_text_hits": 16
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+        "name": "gse235923_dx_secondary_calibration_table.csv",
+        "score": 134,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv",
+        "name": "primary_vs_secondary_comparison_ranges.csv",
+        "score": 100,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "name": "gse235923_dx_secondary_vs_primary_range_comparison.csv",
+        "score": 96,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      },
+      {
+        "path": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv",
+        "name": "primary_ecotype_pca_loadings.csv",
+        "score": 70,
+        "axis_path_hits": 0,
+        "axis_text_hits": 1
+      }
+    ]
+  },
+  "outputs": {
+    "gse235063_targeted_model_candidates_csv": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_bulk_start/targeted_finder/gse235063_targeted_model_candidates.csv",
+    "gse235923_targeted_calibration_candidates_csv": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_bulk_start/targeted_finder/gse235923_targeted_calibration_candidates.csv",
+    "gse235063_targeted_model_report_txt": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_bulk_start/targeted_finder/gse235063_targeted_model_report.txt",
+    "gse235923_targeted_calibration_report_txt": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_bulk_start/targeted_finder/gse235923_targeted_calibration_report.txt"
+  }
+}

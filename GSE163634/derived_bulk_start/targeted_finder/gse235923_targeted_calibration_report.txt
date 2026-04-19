@@ -1,0 +1,237 @@
+GSE235923 targeted calibration candidates
+=========================================
+
+Top candidates overall
+----------------------
+score=135  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  axis_text_hits: {"ilr_gmp_vs_monodc": 23, "ilr_prog_vs_mature": 20, "ilr_stem_vs_committed": 84, "log_aux_clp": 28, "log_aux_erybaso": 56, "pc1": 16, "pc2": 22}
+  > ###############
+  > 
+  > secondary calibration with GSE235923
+  > 
+  > #################
+  > 
+  > GSE235923 is a public pediatric AML scRNA-seq cohort of 31 bone marrow samples across diagnosis (Dx), end of induction (EOI), and relapse timepoints. GEO lists processed data in GSE235923_RAW.tar as MTX/TSV files and exp
+  > 
+
+score=134  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 2, "ilr_prog_vs_mature": 1, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5, "pc1": 1, "pc2": 1}
+  > sample_id,gsm,sample_base,timepoint,total_cells,pred_malignant_cells,pred_normal_cells,pred_malignant_frac,pred_normal_frac,PC1,PC2,state_HSC,state_Prog,state_GMP,state_MonoDC,aux_EryBaso,aux_CLP,ilr_stem_vs_committed,lo
+  > Sample1_DX,GSM7511998,Sample1,DX,4265,4067,198,0.9535756154747947,0.0464243845252051,-1.9169750566764001,0.7642790489139805,0.01307996051332675,0.17645607107601183,0.5841559723593287,0.22630799605133267,0.001477832512315
+  > Sample10_DX,GSM7512012,Sample10,DX,1431,1341,90,0.9371069182389936,0.0628930817610062,0.6326263435552298,-2.954828811064108,0.6176911544227885,0.23688155922038978,0.1424287856071964,0.0029985007496251873,0.00298953662182
+  > Sample11_DX,GSM7512013,Sample11,DX,3047,2716,331,0.8913685592385954,0.1086314407614046,0.49523454244190795,0.023018440441402766,0.501728774490972,0.2800614675374568,0.17864003073376872,0.039569727237802534,0.039439734611
+  > Sample12_DX,GSM7512014,Sample12,DX,2276,2115,161,0.929261862917399,0.070738137082601,1.8948908960242414,-0.9449933499267995,0.523628462791961,0.13036393264530147,0.1450298750678979,0.20097772949483977,0.08499005964214712
+  > Sample13_DX,GSM7512015,Sample13,DX,3821,3638,183,0.95210677833028,0.0478932216697199,2.18509885146686,0.8581669612338692,0.2896341463414634,0.033536585365853654,0.17164634146341462,0.5051829268292682,0.0898534697262925,0
+  > Sample14_DX,GSM7512016,Sample14,DX,4134,3394,740,0.8209966134494436,0.1790033865505563,-1.945486006795052,-0.5652138446799911,0.1066143159166415,0.559347629115071,0.31259438236182424,0.021443672606463304,0.00566994926887
+  > Sample16_DX,GSM7512019,Sample16,DX,4278,2947,1331,0.6888733052828424,0.3111266947171575,-2.9979942617460793,2.8470941922268174,0.12460063897763579,0.10223642172523963,0.07507987220447285,0.6980830670926518,0.272235112142
+
+score=108  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 2, "ilr_prog_vs_mature": 1, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5}
+  > sample_id,state_HSC,state_Prog,state_GMP,state_MonoDC,aux_EryBaso,aux_CLP,ilr_stem_vs_committed,log_aux_erybaso,log_aux_clp
+  > Sample10_DX,0.6176911544227885,0.23688155922038978,0.1424287856071964,0.0029985007496251873,0.0029895366218236174,0.0,2.228573976000549,-5.779734159892575,-9.210340371976182
+  > Sample11_DX,0.501728774490972,0.2800614675374568,0.17864003073376872,0.039569727237802534,0.03943973461113159,0.0011057869517139699,1.198836094474037,-3.230449173170851,-6.720622853236411
+  > Sample12_DX,0.523628462791961,0.13036393264530147,0.1450298750678979,0.20097772949483977,0.08499005964214712,0.0,1.0480358435781243,-2.464045058190759,-9.210340371976182
+  > Sample13_DX,0.2896341463414634,0.033536585365853654,0.17164634146341462,0.5051829268292682,0.0898534697262925,0.0033176665745092617,0.6120316477919782,-2.4084627453852203,-5.6787972489272995
+  > Sample14_DX,0.1066143159166415,0.559347629115071,0.31259438236182424,0.021443672606463304,0.005669949268874963,0.006266786034019696,-0.32672032955504665,-5.1550919907234904,-5.056660483974514
+  > Sample16_DX,0.12460063897763579,0.10223642172523963,0.07507987220447285,0.6980830670926518,0.2722351121423047,0.0015467904098994587,-0.29412606829472426,-1.3007219410772866,-6.408927091561641
+  > Sample17_DX,0.14772727272727273,0.12150349650349651,0.04283216783216783,0.6879370629370629,0.11538461538461539,0.004615384615384616,-0.030627352152010727,-2.1586179580254146,-5.356924793501508
+
+score=100  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv
+  axis_text_hits: {"ilr_stem_vs_committed": 4, "log_aux_erybaso": 3, "pc1": 1, "pc2": 1}
+  > variable,primary_min,primary_max,secondary_min,secondary_max,secondary_within_primary_range_frac
+  > PC1,-3.429271586278837,3.1523006528162485,-2.9979942617460793,2.18509885146686,1.0
+  > PC2,-2.708980651393179,2.5191741522952324,-5.520853878594872,3.241339870264964,0.6842105263157895
+  > ilr_stem_vs_committed,-6.050240417893982,2.7606585378773216,-2.6645360889463685,2.228573976000549,1.0
+  > log_aux_erybaso,-9.210340371976182,-1.2419000449702242,-9.210340371976182,-1.206586223691696,0.9473684210526315
+
+score= 96  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv
+  axis_text_hits: {"ilr_stem_vs_committed": 4, "log_aux_erybaso": 3, "pc1": 1, "pc2": 1}
+  > variable,primary_min,primary_max,secondary_min,secondary_max,secondary_within_primary_range_frac
+  > PC1,-3.429271586278837,3.1523006528162485,-2.9979942617460793,2.18509885146686,1.0
+  > PC2,-2.708980651393179,2.5191741522952324,-5.520853878594872,3.241339870264964,0.6842105263157895
+  > ilr_stem_vs_committed,-6.050240417893982,2.7606585378773216,-2.6645360889463685,2.228573976000549,1.0
+  > log_aux_erybaso,-9.210340371976182,-1.2419000449702242,-9.210340371976182,-1.206586223691696,0.9473684210526315
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 2, "ilr_prog_vs_mature": 1, "log_aux_clp": 2, "log_aux_erybaso": 2}
+  > sample_id,state_HSC,state_Prog,state_GMP,state_MonoDC,aux_EryBaso,aux_CLP
+  > Sample10_DX,0.6158445440956651,0.23617339312406577,0.14200298953662183,0.0029895366218236174,0.0029895366218236174,0.0
+  > Sample11_DX,0.4813859196461482,0.2687062292664947,0.17139697751566532,0.03796535200884629,0.03943973461113159,0.0011057869517139699
+  > Sample12_DX,0.47912524850894633,0.11928429423459244,0.1327037773359841,0.18389662027833,0.08499005964214712,0.0
+  > Sample13_DX,0.2626486038153166,0.030411943599668232,0.15565385678739288,0.45811445949682056,0.0898534697262925,0.0033176665745092617
+  > Sample14_DX,0.10534168904804536,0.5526708445240227,0.3088630259623993,0.02118770516263802,0.005669949268874963,0.006266786034019696
+  > Sample16_DX,0.09048723897911833,0.07424593967517401,0.054524361948955914,0.5069605568445475,0.2722351121423047,0.0015467904098994587
+  > Sample17_DX,0.13,0.10692307692307693,0.03769230769230769,0.6053846153846154,0.11538461538461539,0.004615384615384616
+
+score= 70  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv
+  axis_text_hits: {"ilr_prog_vs_mature": 1, "pc1": 1, "pc2": 1}
+  > ,PC1_loading,PC2_loading
+  > B_Plasma,0.5061229514880392,-0.4098473818505925
+  > Erythroid_Baso,0.1544971558869384,0.8264058094505286
+  > HSPC_Prog,-0.41908975452183317,0.17127911060000006
+  > Myeloid_APC,-0.4781324224009432,-0.3452007239790315
+  > T_NK,0.5618926508717825,-0.02405178024716323
+
+score= 62  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_projected_ecotype_pcs.csv
+  axis_text_hits: {"pc1": 1, "pc2": 1}
+  > sample_id,PC1,PC2
+  > Sample10_DX,0.6326263435552298,-2.954828811064108
+  > Sample11_DX,0.49523454244190795,0.023018440441402766
+  > Sample12_DX,1.8948908960242414,-0.9449933499267995
+  > Sample13_DX,2.18509885146686,0.8581669612338692
+  > Sample14_DX,-1.945486006795052,-0.5652138446799911
+  > Sample16_DX,-2.9979942617460793,2.8470941922268174
+  > Sample17_DX,-1.438574635929548,-0.4420962694243221
+
+score= 60  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_core4_fractions_by_sample.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 2, "ilr_prog_vs_mature": 1}
+  > sample_id,state_HSC,state_Prog,state_GMP,state_MonoDC
+  > Sample10_DX,0.6176911544227885,0.23688155922038978,0.1424287856071964,0.0029985007496251873
+  > Sample11_DX,0.501728774490972,0.2800614675374568,0.17864003073376872,0.039569727237802534
+  > Sample12_DX,0.523628462791961,0.13036393264530147,0.1450298750678979,0.20097772949483977
+  > Sample13_DX,0.2896341463414634,0.033536585365853654,0.17164634146341462,0.5051829268292682
+  > Sample14_DX,0.1066143159166415,0.559347629115071,0.31259438236182424,0.021443672606463304
+  > Sample16_DX,0.12460063897763579,0.10223642172523963,0.07507987220447285,0.6980830670926518
+  > Sample17_DX,0.14772727272727273,0.12150349650349651,0.04283216783216783,0.6879370629370629
+
+score= 57  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_reference_scores.csv
+  axis_text_hits: {"pc1": 1, "pc2": 1}
+  > sample_id,PC1,PC2
+  > AML1_DX,-3.8911116219949555,0.6963381463555534
+  > AML2_DX,-1.5313946652583355,0.8751693074333989
+  > AML3_DX,-1.090426991035332,-0.23594614981948642
+  > AML4_DX,3.921945046448688,-0.5364446273434575
+  > AML5_DX,0.3117009489177954,-1.019102183431332
+  > AML6_DX,-0.53006324354399,-1.6484220406393217
+  > AML7_DX,-1.565127841334076,-0.6589587036160895
+
+score= 46  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_broad_fractions_by_sample_restricted.csv
+  axis_text_hits: {"ilr_prog_vs_mature": 1}
+  > sample_id,B_Plasma,Erythroid_Baso,HSPC_Prog,Myeloid_APC,T_NK
+  > Sample10_DX,0.07777777777777778,0.0,0.044444444444444446,0.0,0.8777777777777778
+  > Sample11_DX,0.09063444108761329,0.030211480362537766,0.006042296072507553,0.0030211480362537764,0.8700906344410876
+  > Sample12_DX,0.2795031055900621,0.043478260869565216,0.0,0.018633540372670808,0.6583850931677019
+  > Sample13_DX,0.14207650273224043,0.22404371584699453,0.0,0.00546448087431694,0.6284153005464481
+  > Sample14_DX,0.13378378378378378,0.03648648648648649,0.12702702702702703,0.05810810810810811,0.6445945945945946
+  > Sample16_DX,0.008264462809917356,0.8482344102178813,0.011269722013523666,0.08715251690458302,0.045078888054094664
+  > Sample17_DX,0.3182917002417405,0.11361804995970991,0.024174053182917002,0.14746172441579372,0.3964544721998388
+
+score= 43  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_predicted_sample_summary.csv
+  > sample_id,gsm,sample_base,timepoint,total_cells,pred_malignant_cells,pred_normal_cells,pred_malignant_frac,pred_normal_frac
+  > Sample1_DX,GSM7511998,Sample1,DX,4265,4067,198,0.9535756154747949,0.046424384525205156
+  > Sample10_DX,GSM7512012,Sample10,DX,1431,1341,90,0.9371069182389937,0.06289308176100629
+  > Sample11_DX,GSM7512013,Sample11,DX,3047,2716,331,0.8913685592385954,0.10863144076140466
+  > Sample12_DX,GSM7512014,Sample12,DX,2276,2115,161,0.929261862917399,0.07073813708260106
+  > Sample13_DX,GSM7512015,Sample13,DX,3821,3638,183,0.95210677833028,0.04789322166971997
+  > Sample14_DX,GSM7512016,Sample14,DX,4134,3394,740,0.8209966134494436,0.17900338655055636
+  > Sample16_DX,GSM7512019,Sample16,DX,4278,2947,1331,0.6888733052828424,0.31112669471715754
+
+score= 38  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_sample_summary.csv
+  > gsm,sample_base,timepoint,sample_id,n_cells,n_genes,matrix_nnz
+  > GSM7511998,Sample1,DX,Sample1_DX,4265,33538,5473169
+  > GSM7512012,Sample10,DX,Sample10_DX,1431,33538,1346114
+  > GSM7512013,Sample11,DX,Sample11_DX,3047,33538,3846211
+  > GSM7512014,Sample12,DX,Sample12_DX,2276,33538,2308038
+  > GSM7512015,Sample13,DX,Sample13_DX,3821,33538,5102106
+  > GSM7512016,Sample14,DX,Sample14_DX,4134,33538,6649190
+  > GSM7512019,Sample16,DX,Sample16_DX,4278,36613,10424130
+
+score= 38  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_sample_summary_gexonly.csv
+  > gsm,sample_base,timepoint,sample_id,n_cells,n_gex_features,matrix_nnz
+  > GSM7511998,Sample1,DX,Sample1_DX,4265,30397,5450296
+  > GSM7512012,Sample10,DX,Sample10_DX,1431,30397,1340104
+  > GSM7512013,Sample11,DX,Sample11_DX,3047,30397,3832037
+  > GSM7512014,Sample12,DX,Sample12_DX,2276,30397,2298107
+  > GSM7512015,Sample13,DX,Sample13_DX,3821,30397,5081341
+  > GSM7512016,Sample14,DX,Sample14_DX,4134,30397,6620952
+  > GSM7512019,Sample16,DX,Sample16_DX,4278,32401,10333229
+
+score= 37  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_2x2.pdf
+
+score= 37  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_2x2.png
+
+score= 31  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_feature_name_choice_summary.csv
+  > sample_id,overlap_if_col0,overlap_if_col1,chosen_source,kept_features_before_dedup,final_features_after_dedup
+  > Sample10_DX,0,26971,col1,33538,30397
+  > Sample11_DX,0,26971,col1,33538,30397
+  > Sample12_DX,0,26971,col1,33538,30397
+  > Sample13_DX,0,26971,col1,33538,30397
+  > Sample14_DX,0,26971,col1,33538,30397
+  > Sample16_DX,0,26286,col1,36601,32401
+  > Sample17_DX,0,26286,col1,36601,32401
+
+score= 28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/.DS_Store
+
+score= 28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_labeled_by_gse235063.h5ad
+
+score= 28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_unlabeled.h5ad
+
+score= 28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_unlabeled_gexonly.h5ad
+
+score= 28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_unlabeled_gexonly_autoname.h5ad
+
+score= 10  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923.py
+
+score=  5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/cross_cohort_comparison.py
+
+score=  3  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/GSE235923_RAW/gse235923_file_inventory.csv
+  > file,gsm,timepoint,kind
+  > GSM7511998_Sample1D_barcodes.tsv.gz,GSM7511998,,barcodes.tsv
+  > GSM7511998_Sample1D_features.tsv.gz,GSM7511998,,features.tsv
+  > GSM7511998_Sample1D_matrix.mtx.gz,GSM7511998,,matrix.mtx
+  > GSM7511999_Sample2D_barcodes.tsv.gz,GSM7511999,,barcodes.tsv
+  > GSM7511999_Sample2D_features.tsv.gz,GSM7511999,,features.tsv
+  > GSM7511999_Sample2D_matrix.mtx.gz,GSM7511999,,matrix.mtx
+  > GSM7512000_Sample3D_barcodes.tsv.gz,GSM7512000,,barcodes.tsv
+
+
+Top candidates by axis
+----------------------
+
+[pc1]
+  score=135 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=100 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv
+  score= 96 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv
+  score= 70 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv
+
+[pc2]
+  score=135 path_hits=0 text_hits=22  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=100 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv
+  score= 96 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv
+  score= 70 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv
+
+[ilr_stem_vs_committed]
+  score=135 path_hits=0 text_hits=84  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=4  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=108 path_hits=0 text_hits=4  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  score=100 path_hits=0 text_hits=4  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv
+  score= 96 path_hits=0 text_hits=4  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv
+
+[ilr_prog_vs_mature]
+  score=135 path_hits=0 text_hits=20  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=108 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  score= 88 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv
+  score= 70 path_hits=0 text_hits=1  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/primary_ecotype_pca_loadings.csv
+
+[ilr_gmp_vs_monodc]
+  score=135 path_hits=0 text_hits=23  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=2  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=108 path_hits=0 text_hits=2  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  score= 88 path_hits=0 text_hits=2  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv
+  score= 60 path_hits=0 text_hits=2  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_core4_fractions_by_sample.csv
+
+[log_aux_clp]
+  score=135 path_hits=0 text_hits=28  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=108 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  score= 88 path_hits=0 text_hits=2  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_pred_malignant_coarse_fractions_by_sample.csv
+
+[log_aux_erybaso]
+  score=135 path_hits=0 text_hits=56  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/secondary_calibration_GSE235923_results.txt
+  score=134 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+  score=108 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv
+  score=100 path_hits=0 text_hits=3  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/comparison_figure/primary_vs_secondary_comparison_ranges.csv
+  score= 96 path_hits=0 text_hits=3  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_vs_primary_range_comparison.csv

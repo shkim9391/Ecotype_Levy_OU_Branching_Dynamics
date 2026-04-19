@@ -1,0 +1,325 @@
+GSE235063 targeted model candidates
+===================================
+
+Top candidates overall
+----------------------
+score=151  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  axis_text_hits: {"ilr_gmp_vs_monodc": 316, "ilr_prog_vs_mature": 308, "ilr_stem_vs_committed": 477, "log_aux_clp": 216, "log_aux_erybaso": 328, "pc1": 85, "pc2": 83}
+  > 
+  > ##########
+  > 
+  > primary training with gse235063
+  > 
+  > ##########
+  > 
+  > 1) a diagnosis-cohort manifest
+
+score=146  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 8, "log_aux_clp": 10, "log_aux_erybaso": 10, "pc1": 3, "pc2": 3}
+  > {
+  >   "source_file": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/dx_ou_ilr_branch_ready.csv",
+  >   "level": "sample-level summaries mapped back to cells by sample_id",
+  >   "columns_present": [
+  >     "PC1",
+  >     "PC2",
+  >     "ecotype_label",
+  >     "state_HSC",
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 16, "ilr_prog_vs_mature": 16, "ilr_stem_vs_committed": 16, "log_aux_clp": 12, "log_aux_erybaso": 12, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > full19,ilr_stem_vs_committed,intercept,-0.3350888511097423,1000.0
+  > full19,ilr_stem_vs_committed,PC1,-0.004143673655085533,1000.0
+  > full19,ilr_stem_vs_committed,PC2,0.008360401860485577,1000.0
+  > full19,ilr_stem_vs_committed,is_blood,-0.004196944948579641,1000.0
+  > full19,ilr_prog_vs_mature,intercept,0.4923182955085381,1000.0
+  > full19,ilr_prog_vs_mature,PC1,0.008451354000516019,1000.0
+  > full19,ilr_prog_vs_mature,PC2,0.0007268555726812025,1000.0
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 16, "ilr_prog_vs_mature": 16, "ilr_stem_vs_committed": 16, "log_aux_clp": 12, "log_aux_erybaso": 12, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > marrow_only,ilr_stem_vs_committed,intercept,-0.009388814727946495,1000.0
+  > marrow_only,ilr_stem_vs_committed,PC1,-0.0014248102452297632,1000.0
+  > marrow_only,ilr_stem_vs_committed,PC2,0.0057374474604161745,1000.0
+  > marrow_only,ilr_stem_vs_committed,is_blood,0.0,1000.0
+  > marrow_only,ilr_prog_vs_mature,intercept,0.49899867686449323,39.81071705534978
+  > marrow_only,ilr_prog_vs_mature,PC1,0.16802354741636996,39.81071705534978
+  > marrow_only,ilr_prog_vs_mature,PC2,0.015466193875640355,39.81071705534978
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 16, "ilr_prog_vs_mature": 16, "ilr_stem_vs_committed": 16, "log_aux_clp": 12, "log_aux_erybaso": 12, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > no_AML23,ilr_stem_vs_committed,intercept,-0.44182884618523033,19.952623149688787
+  > no_AML23,ilr_stem_vs_committed,PC1,-0.23415487977728952,19.952623149688787
+  > no_AML23,ilr_stem_vs_committed,PC2,0.25529277345412477,19.952623149688787
+  > no_AML23,ilr_stem_vs_committed,is_blood,-0.23992182946395163,19.952623149688787
+  > no_AML23,ilr_prog_vs_mature,intercept,0.30830436705520076,1000.0
+  > no_AML23,ilr_prog_vs_mature,PC1,0.004151424833998116,1000.0
+  > no_AML23,ilr_prog_vs_mature,PC2,0.002799099325748861,1000.0
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__full19.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 32, "ilr_prog_vs_mature": 32, "ilr_stem_vs_committed": 32, "log_aux_clp": 24, "log_aux_erybaso": 24, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > full19,ilr_stem_vs_committed,intercept,-2.125362405324025,0.15848931924611143
+  > full19,ilr_stem_vs_committed,PC1,-0.27656447966533193,0.15848931924611143
+  > full19,ilr_stem_vs_committed,PC2,-0.3601556245482761,0.15848931924611143
+  > full19,ilr_stem_vs_committed,is_blood,-0.5142056242064017,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_RUNX,2.790667965013435,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_CBFB,1.895625092874638,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_FLT,3.760491470634395,0.15848931924611143
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__marrow_only.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 32, "ilr_prog_vs_mature": 32, "ilr_stem_vs_committed": 32, "log_aux_clp": 24, "log_aux_erybaso": 24, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > marrow_only,ilr_stem_vs_committed,intercept,-0.009524490992812957,10000.0
+  > marrow_only,ilr_stem_vs_committed,PC1,-0.0001439579993637861,10000.0
+  > marrow_only,ilr_stem_vs_committed,PC2,0.0005803529835605811,10000.0
+  > marrow_only,ilr_stem_vs_committed,is_blood,0.0,10000.0
+  > marrow_only,ilr_stem_vs_committed,Subgroup_RUNX,0.00020669238765043028,10000.0
+  > marrow_only,ilr_stem_vs_committed,Subgroup_CBFB,-1.2255105679617559e-05,10000.0
+  > marrow_only,ilr_stem_vs_committed,Subgroup_FLT,0.0003261212859780143,10000.0
+
+score=144  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_coefficients__no_AML23.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 32, "ilr_prog_vs_mature": 32, "ilr_stem_vs_committed": 32, "log_aux_clp": 24, "log_aux_erybaso": 24, "pc1": 5, "pc2": 5}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > no_AML23,ilr_stem_vs_committed,intercept,-1.7793022730626356,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,PC1,-0.44722831271388763,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,PC2,-0.28941070401564173,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,is_blood,-1.0865920411227306,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_RUNX,2.454964014873133,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_CBFB,1.6123351518031597,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_FLT,2.8417027945703928,0.15848931924611143
+
+score=140  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/training_sample_summary_with_transfer_columns.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 6, "ilr_prog_vs_mature": 5, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5, "pc1": 1, "pc2": 1}
+  > sample_id,gsm,sample,Patient_ID,Biopsy_Origin,Subgroup,Expected_Driving_Aberration,Treatment_Outcome,timepoint,total_cells,malignant_cells,normal_cells,malignant_frac,normal_frac,PC1,PC2,ecotype_label,state_HSC,state_Pro
+  > AML1_DX,GSM7494285,AML1,PAULSL,Marrow,KMT2A,KMT2A-PALM2.AKAP2,Censored,DX,2567,0,2567,0.0,1.0,,,,,,,,,,,,,,
+  > AML10_DX,GSM7494292,AML10,PAWTSD,Blood,KMT2A,KMT2A-MLLT3,Relapsed,DX,5279,5002,277,0.9475279408978974,0.05247205910210267,,,,,,,,,,,,,,
+  > AML11_DX,GSM7494295,AML11,PAWWCW,Blood,KMT2A,KMT2A-MLLT10,Relapsed,DX,7335,5110,2225,0.6966598500340832,0.30334014996591685,-1.6348371507053177,-1.9563857186683615,E4_CD4Naive_CD8Naive,0.009930486593843,0.714796425024826
+  > AML12_DX,GSM7494326,AML12,PAWMKP,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,7615,7402,213,0.9720288903479973,0.027971109652002626,,,,,,,,,,,,,,
+  > AML13_DX,GSM7494329,AML13,PAWNPG,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,4410,2648,1762,0.600453514739229,0.39954648526077097,0.5343653907700865,-1.584359084495339,E4_CD4Naive_CD8Naive,0.3747474747474749,0.3156565656565656
+  > AML14_DX,GSM7494314,AML14,PAULDS,Marrow,RUNX,RUNX1-RUNX1T1,Censored,DX,7191,6472,719,0.9000139062717285,0.09998609372827146,3.1523006528162485,2.5191741522952324,E3_NK_CD8Memory,0.0695463642428285,0.7266511007338228,0.20
+  > AML15_DX,GSM7494266,AML15,PAWWXU,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,6037,5144,893,0.8520788471094914,0.14792115289050853,-1.0558649357343428,2.358876083748398,E1_LateErythrocyte_CD8Memory,0.307137874912811,0.464078121
+
+score=137  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/frozen_sample_transfer_scores.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 6, "ilr_prog_vs_mature": 5, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5, "pc1": 1, "pc2": 1}
+  > sample_id,PC1,PC2,ecotype_label,state_HSC,state_Prog,state_GMP,state_MonoDC,aux_EryBaso,aux_CLP,ilr_stem_vs_committed,ilr_prog_vs_mature,ilr_gmp_vs_monodc,log_aux_erybaso,log_aux_clp
+  > AML11_DX,-1.6348371507053177,-1.9563857186683615,E4_CD4Naive_CD8Naive,0.009930486593843,0.7147964250248263,0.2512413108242304,0.0240317775571002,0.0064579256360076,0.0025440313111545,-2.4149383072121595,1.810145968138526
+  > AML13_DX,0.5343653907700865,-1.584359084495339,E4_CD4Naive_CD8Naive,0.3747474747474749,0.3156565656565656,0.1601010101010101,0.1494949494949493,0.073262839879154,0.0120845921450151,0.5600948365841112,0.5819916042289504,0
+  > AML14_DX,3.1523006528162485,2.5191741522952324,E3_NK_CD8Memory,0.0695463642428285,0.7266511007338228,0.2001334222815209,0.0036691127418277,0.0491347342398022,0.0106613102595797,-0.1398965840594442,2.6743711432940818,2.80
+  > AML15_DX,-1.0558649357343428,2.358876083748398,E1_LateErythrocyte_CD8Memory,0.307137874912811,0.464078121367124,0.2146012555219716,0.0141827481980934,0.1562986003110419,0.0038880248833592,0.8701530397720642,1.73596839597
+  > AML16_DX,-1.6052035732105998,0.8961035814292717,E1_LateErythrocyte_CD8Memory,0.3539170506912443,0.2465437788018432,0.3612903225806451,0.0382488479262672,0.1956047947693424,0.0038140210679258,0.7399918729228783,0.60388377
+  > AML17_DX,-3.429271586278837,1.657655179553819,E1_LateErythrocyte_CD8Memory,0.2806163828061639,0.1636658556366585,0.1972424979724249,0.3584752635847527,0.0177880897138437,0.017014694508894,0.1866335186375476,-0.3960841119
+  > AML18_DX,-1.3523487393510882,-1.7577142578804137,E2_BCell_CD4Naive,0.1765071472964575,0.1410814170292106,0.1426351771286513,0.5397762585456807,0.003642191142191,0.0103438228438228,-0.1964703912125185,-0.5520494844675641,
+
+score=117  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/dx_primary_training_sample_level_summary_frozen_transfer.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 6, "ilr_prog_vs_mature": 5, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5, "pc1": 1, "pc2": 1}
+  > sample_id,gsm,sample,Patient_ID,Biopsy_Origin,Subgroup,Expected_Driving_Aberration,Treatment_Outcome,timepoint,total_cells,malignant_cells,normal_cells,malignant_frac,normal_frac,PC1,PC2,ecotype_label,state_HSC,state_Pro
+  > AML1_DX,GSM7494285,AML1,PAULSL,Marrow,KMT2A,KMT2A-PALM2.AKAP2,Censored,DX,2567,0,2567,0.0,1.0,,,,,,,,,,,,,,
+  > AML10_DX,GSM7494292,AML10,PAWTSD,Blood,KMT2A,KMT2A-MLLT3,Relapsed,DX,5279,5002,277,0.9475279408978974,0.05247205910210267,,,,,,,,,,,,,,
+  > AML11_DX,GSM7494295,AML11,PAWWCW,Blood,KMT2A,KMT2A-MLLT10,Relapsed,DX,7335,5110,2225,0.6966598500340832,0.30334014996591685,-1.6348371507053177,-1.9563857186683615,E4_CD4Naive_CD8Naive,0.009930486593843,0.714796425024826
+  > AML12_DX,GSM7494326,AML12,PAWMKP,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,7615,7402,213,0.9720288903479973,0.027971109652002626,,,,,,,,,,,,,,
+  > AML13_DX,GSM7494329,AML13,PAWNPG,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,4410,2648,1762,0.600453514739229,0.39954648526077097,0.5343653907700865,-1.584359084495339,E4_CD4Naive_CD8Naive,0.3747474747474749,0.3156565656565656
+  > AML14_DX,GSM7494314,AML14,PAULDS,Marrow,RUNX,RUNX1-RUNX1T1,Censored,DX,7191,6472,719,0.9000139062717285,0.09998609372827146,3.1523006528162485,2.5191741522952324,E3_NK_CD8Memory,0.0695463642428285,0.7266511007338228,0.20
+  > AML15_DX,GSM7494266,AML15,PAWWXU,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,DX,6037,5144,893,0.8520788471094914,0.14792115289050853,-1.0558649357343428,2.358876083748398,E1_LateErythrocyte_CD8Memory,0.307137874912811,0.464078121
+
+score=113  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/final_small_model/small_model_coefficients__full19.csv
+  axis_text_hits: {"ilr_stem_vs_committed": 32, "log_aux_erybaso": 24, "pc1": 2, "pc2": 2}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > full19,ilr_stem_vs_committed,intercept,-2.125362405324025,0.15848931924611143
+  > full19,ilr_stem_vs_committed,PC1,-0.27656447966533193,0.15848931924611143
+  > full19,ilr_stem_vs_committed,PC2,-0.3601556245482761,0.15848931924611143
+  > full19,ilr_stem_vs_committed,is_blood,-0.5142056242064017,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_RUNX,2.790667965013435,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_CBFB,1.895625092874638,0.15848931924611143
+  > full19,ilr_stem_vs_committed,Subgroup_FLT,3.760491470634395,0.15848931924611143
+
+score=113  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/final_small_model/small_model_coefficients__no_AML23.csv
+  axis_text_hits: {"ilr_stem_vs_committed": 32, "log_aux_erybaso": 24, "pc1": 2, "pc2": 2}
+  > analysis,response,term,coefficient,alpha_full_fit
+  > no_AML23,ilr_stem_vs_committed,intercept,-1.7793022730626356,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,PC1,-0.44722831271388763,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,PC2,-0.28941070401564173,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,is_blood,-1.0865920411227306,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_RUNX,2.454964014873133,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_CBFB,1.6123351518031597,0.15848931924611143
+  > no_AML23,ilr_stem_vs_committed,Subgroup_FLT,2.8417027945703928,0.15848931924611143
+
+score=110  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/dx_ou_ilr_branch_ready.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 6, "ilr_prog_vs_mature": 5, "ilr_stem_vs_committed": 4, "log_aux_clp": 5, "log_aux_erybaso": 5, "pc1": 1, "pc2": 1}
+  > sample_id,sample,gsm,Patient_ID,Biopsy_Origin,is_blood,Subgroup,Expected_Driving_Aberration,Treatment_Outcome,malignant_cells,normal_cells,PC1,PC2,ecotype_label,state_HSC,state_Prog,state_GMP,state_MonoDC,aux_EryBaso,aux
+  > AML11_DX,AML11,GSM7494295,PAWWCW,Blood,1,KMT2A,KMT2A-MLLT10,Relapsed,5110,2225,-1.6348371507053177,-1.9563857186683615,E4_CD4Naive_CD8Naive,0.009930486593843,0.7147964250248263,0.2512413108242304,0.0240317775571002,0.006
+  > AML13_DX,AML13,GSM7494329,PAWNPG,Marrow,0,RUNX,RUNX1-RUNX1T1,Relapsed,2648,1762,0.5343653907700865,-1.584359084495339,E4_CD4Naive_CD8Naive,0.3747474747474749,0.3156565656565656,0.1601010101010101,0.1494949494949493,0.073
+  > AML14_DX,AML14,GSM7494314,PAULDS,Marrow,0,RUNX,RUNX1-RUNX1T1,Censored,6472,719,3.1523006528162485,2.5191741522952324,E3_NK_CD8Memory,0.0695463642428285,0.7266511007338228,0.2001334222815209,0.0036691127418277,0.049134734
+  > AML15_DX,AML15,GSM7494266,PAWWXU,Marrow,0,RUNX,RUNX1-RUNX1T1,Relapsed,5144,893,-1.0558649357343428,2.358876083748398,E1_LateErythrocyte_CD8Memory,0.307137874912811,0.464078121367124,0.2146012555219716,0.0141827481980934,
+  > AML16_DX,AML16,GSM7494257,PAUZRT,Marrow,0,RUNX,RUNX1-RUNX1T1,Relapsed,5506,1251,-1.6052035732105998,0.8961035814292717,E1_LateErythrocyte_CD8Memory,0.3539170506912443,0.2465437788018432,0.3612903225806451,0.0382488479262
+  > AML17_DX,AML17,GSM7494282,PAXGDG,Marrow,0,CBFB,CBFB-MYH11,Relapsed,6465,430,-3.429271586278837,1.657655179553819,E1_LateErythrocyte_CD8Memory,0.2806163828061639,0.1636658556366585,0.1972424979724249,0.3584752635847527,0.
+  > AML18_DX,AML18,GSM7494324,PAVGJG,Blood,1,CBFB,CBFB-MYH11,Relapsed,6864,504,-1.3523487393510882,-1.7577142578804137,E2_BCell_CD4Naive,0.1765071472964575,0.1410814170292106,0.1426351771286513,0.5397762585456807,0.003642191
+
+score= 99  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/train_gene_order.txt
+  axis_text_hits: {"ilr_gmp_vs_monodc": 5, "log_aux_clp": 9, "pc1": 28, "pc2": 16}
+  > A1BG
+  > A1BG-AS1
+  > A1CF
+  > A2M
+  > A2M-AS1
+  > A2ML1
+  > A2ML1-AS1
+  > A2ML1-AS2
+
+score= 98  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/dx_ou_training_design_matrix_core4.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 9, "ilr_prog_vs_mature": 8, "log_aux_clp": 4, "log_aux_erybaso": 2, "pc1": 1, "pc2": 1}
+  > sample_id,sample,gsm,Patient_ID,Biopsy_Origin,Subgroup,Expected_Driving_Aberration,Treatment_Outcome,malignant_cells,normal_cells,PC1,PC2,ecotype_cluster,ecotype_label,dominant_malignant_state,dominant_malignant_state_fr
+  > AML11_DX,AML11,GSM7494295,PAWWCW,Blood,KMT2A,KMT2A-MLLT10,Relapsed,5110,2225,-1.6348371507053177,-1.9563857186683615,4,E4_CD4Naive_CD8Naive,Progenitor,0.7043052837573386,0.0025440313111545,0.0001956947162426,0.0062622309
+  > AML13_DX,AML13,GSM7494329,PAWNPG,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,2648,1762,0.5343653907700865,-1.584359084495339,4,E4_CD4Naive_CD8Naive,HSC,0.2802114803625378,0.0120845921450151,0.029833836858006,0.043429003021148,0.1
+  > AML14_DX,AML14,GSM7494314,PAULDS,Marrow,RUNX,RUNX1-RUNX1T1,Censored,6472,719,3.1523006528162485,2.5191741522952324,3,E3_NK_CD8Memory,Progenitor,0.6732076637824475,0.0106613102595797,0.0207045735475896,0.0284301606922126,
+  > AML15_DX,AML15,GSM7494266,PAWWXU,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,5144,893,-1.0558649357343428,2.358876083748398,1,E1_LateErythrocyte_CD8Memory,Progenitor,0.3880248833592535,0.0038880248833592,0.0033048211508553,0.1529
+  > AML16_DX,AML16,GSM7494257,PAUZRT,Marrow,RUNX,RUNX1-RUNX1T1,Relapsed,5506,1251,-1.6052035732105998,0.8961035814292717,1,E1_LateErythrocyte_CD8Memory,GMP,0.2847802397384671,0.0038140210679258,0.0212495459498728,0.174355248
+  > AML17_DX,AML17,GSM7494282,PAXGDG,Marrow,CBFB,CBFB-MYH11,Relapsed,6465,430,-3.4292715862
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_predictions__full19.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML11_DX,AML11,Blood,KMT2A,-2.4149383072121595,-1.7336351764528437,-0.6813031307593158,1.810145968138526,0.4104395819494746,1.3997063861890513,1.6569507881146663,-0.21522634200336793,1.8721771301180343,-5.027080940055567
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,1.2590190152452285,-0.6989241786611173,0.5819916042289504,0.4876951227465763,0.09429648148237407,0.048435425014024,2.8365999013204397,-2.7881644763064157,-2.6123377402352994,
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,-0.4789142963547417,0.33901771229529754,2.6743711432940818,0.37152486236128074,2.302846280932801,2.8090836323038784,0.6412801701218802,2.167803462181998,-3.011155924087085,-
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,0.0029526075403478735,0.8672004322317163,1.735968395973002,0.4226404555632524,1.3133279404097495,1.9163973783949655,0.2342837199851672,1.6821136584097982,-1.8553474003288637,
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,0.6696579445288844,0.07033392839399388,0.6038837790546066,0.4856379328338552,0.11824584622075135,1.5862060537193845,0.282903006167748,1.3033030475516365,-1.6311479042704184,-
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,-0.3532442346177411,0.5398777532552888,-0.3960841119693738,0.5400238465413605,-0.9361079585107344,-0.4222826075166324,-1.374102844795389,0.9518202372787565,-4.023620166713232
+  > AML18_DX,AML18,Blood,CBFB,-0.1964703912125185,-0.13653239354194113,-0.059937997670577364,-0.5520494844675641,0.54950520006662,-1.1015546845341841,-0.940698769045105,0.36625846938343143,-1.3069572384285364,-5.588083972212
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_predictions__marrow_only.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,-0.05793494525612292,0.6180297818402342,0.5819916042289504,0.49575248461193067,0.08623911961701969,0.048435425014024,0.6868097763815822,-0.6383743513675583,-2.612337740235299
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,0.0022245278089847746,-0.14212111186842896,2.6743711432940818,0.31855638310940676,2.355814760184675,2.8090836323038784,0.44207678851102195,2.3670068437928564,-3.011155924087
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,-0.0819870551680511,0.9521400949401153,1.735968395973002,0.3208711482731007,1.4150972476999013,1.9163973783949655,0.5020104703413064,1.414386908053659,-1.8553474003288637,-2.
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,-0.07160903779583912,0.8116009107187174,0.6038837790546066,0.41381693622774995,0.1900668428268566,1.5862060537193845,0.440730026159034,1.1454760275603504,-1.6311479042704184,
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,-0.025234538272804915,0.21186805691035251,-0.3960841119693738,0.5718944778094248,-0.9679785897787987,-0.4222826075166324,0.7087738853961324,-1.1310564929127649,-4.02362016671
+  > AML20_DX,AML20,Marrow,CBFB,-0.3274790722294956,0.017105917801339313,-0.3445849900308349,-0.5470444113484646,0.5666102221697179,-1.1136546335181825,-0.7205483551260115,0.7347748515036279,-1.4553232066296393,-2.70215067643
+  > AML21_DX,AML21,Marrow,FLT,0.7313448446283121,-0.07076870496625995,0.802113549594572,-0.7328840250867252,0.6008038466281493,-1.3336878717148746,-0.7154555396409917,0.734017340995907,-1.4494728806368986,-2.5026437250106808
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_predictions__no_AML23.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML11_DX,AML11,Blood,KMT2A,-2.4149383072121595,-0.644544479853373,-1.7703938273587865,1.810145968138526,0.21776484729331022,1.5923811208452157,1.6569507881146663,-0.1547248985224282,1.8116756866370944,-5.027080940055567,
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,-0.8841980337891375,1.4442928703732487,0.5819916042289504,0.29170600146106823,0.2902856027678821,0.048435425014024,0.40483767186277647,-0.3564022468487525,-2.6123377402352994
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,-0.8153736865985455,0.6754771025391013,2.6743711432940818,0.1684816484790208,2.5058894948150607,2.8090836323038784,0.24266788940468398,2.5664157428991943,-3.011155924087085,
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,0.28547770791892924,0.5846753318531349,1.735968395973002,0.2237979708891685,1.5121704250838335,1.9163973783949655,0.2944805263823701,1.6219168520125953,-1.8553474003288637,-2
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,0.9188995349075353,-0.17890766198465702,0.6038837790546066,0.2903958302323364,0.31348794882227016,1.5862060537193845,0.313694126168866,1.2725119275505186,-1.6311479042704184,
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,0.4172461075343916,-0.23061258889684402,-0.3960841119693738,0.34856537101471485,-0.7446494829840886,-0.4222826075166324,0.4308560340355239,-0.8531386415521562,-4.023620166713
+  > AML18_DX,AML18,Blood,CBFB,-0.1964703912125185,-1.422110601463857,1.2256402102513384,-0.5520494844675641,0.3573165757851989,-0.9093660602527629,-0.940698769045105,0.4614274377274818,-1.4021262067725868,-5.588083972212716,
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_predictions__full19.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML11_DX,AML11,Blood,KMT2A,-2.4149383072121595,-0.2253996854848101,-2.1895386217273494,1.810145968138526,0.4069819819887643,1.4031639861497616,1.6569507881146663,0.2775855621106849,1.3793652260039815,-5.027080940055567,-
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,-0.3956805785812559,0.955775415165367,0.5819916042289504,0.48876789908024,0.09322370514871037,0.048435425014024,0.7147566119031927,-0.6663211868891687,-2.6123377402352994,-4.
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,-0.3397659489110449,0.1998693648516007,2.6743711432940818,0.37487213477596804,2.2994990085181137,2.8090836323038784,0.5260969027911946,2.2829867295126838,-3.011155924087085,
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,-0.38948932530845204,1.2596423650805162,1.735968395973002,0.41624082608736135,1.3197275698856406,1.9163973783949655,0.3653556868719958,1.5510416915229697,-1.8553474003288637,
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,-0.3878445659284804,1.1278364388513586,0.6038837790546066,0.479289187096629,0.12459459195797756,1.5862060537193845,0.3657200785821917,1.2204859751371928,-1.6311479042704184,-
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,-0.34894839483745554,0.5355819134750032,-0.3960841119693738,0.5293204036079594,-0.9254045155773332,-0.4222826075166324,0.6595663211973453,-1.0818489287139776,-4.0236201667132
+  > AML18_DX,AML18,Blood,CBFB,-0.1964703912125185,-0.35434797162512,0.1578775804126015,-0.5520494844675641,0.545883083206926,-1.0979325676744902,-0.940698769045105,0.7029203942255321,-1.6436191632706372,-5.588083972212716,-3
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_predictions__marrow_only.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,-0.06801409619850374,0.6281089327826149,0.5819916042289504,0.49532635814414616,0.08666524608480419,0.048435425014024,0.670277271129965,-0.6218418461159411,-2.6123377402352994
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,0.007956641488350643,-0.14785322554779484,2.6743711432940818,0.32477599056773077,2.349595152726351,2.8090836323038784,0.4506324543062167,2.3584511779976616,-3.01115592408708
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,-0.07597312987989635,0.9461261696519605,1.735968395973002,0.17333539956496966,1.5626329964080323,1.9163973783949655,0.4419463953545588,1.4744509830404067,-1.8553474003288637,
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,-0.06984992471215976,0.809841797635038,0.6038837790546066,0.3011944274491526,0.30268935160545396,1.5862060537193845,0.32531274868531757,1.260893305034067,-1.6311479042704184,
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,-0.019078441706990256,0.20571196034453784,-0.3960841119693738,0.5291520515245214,-0.9252361634938953,-0.4222826075166324,0.6985660774750431,-1.1208486849916754,-4.02362016671
+  > AML20_DX,AML20,Marrow,CBFB,-0.3274790722294956,0.018256907898058353,-0.34573598012755397,-0.5470444113484646,0.5658954635644546,-1.1129398749129193,-0.7205483551260115,0.7312078012658215,-1.4517561563918329,-2.7021506764
+  > AML21_DX,AML21,Marrow,FLT,0.7313448446283121,-0.06909591673420319,0.8004407613625153,-0.7328840250867252,0.5917353746835434,-1.3246193997702687,-0.7154555396409917,0.7257898670686511,-1.4412454067096427,-2.50264372501068
+
+score= 88  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_predictions__no_AML23.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 12, "ilr_prog_vs_mature": 12, "ilr_stem_vs_committed": 12, "log_aux_clp": 9, "log_aux_erybaso": 9}
+  > sample_id,sample,Biopsy_Origin,Subgroup,true__ilr_stem_vs_committed,predloo__ilr_stem_vs_committed,residloo__ilr_stem_vs_committed,true__ilr_prog_vs_mature,predloo__ilr_prog_vs_mature,residloo__ilr_prog_vs_mature,true__i
+  > AML11_DX,AML11,Blood,KMT2A,-2.4149383072121595,-0.5387651941434748,-1.8761731130686847,1.810145968138526,0.20589332421445825,1.6042526439240676,1.6569507881146663,0.14244726803239544,1.514503520082271,-5.027080940055567,
+  > AML13_DX,AML13,Marrow,RUNX,0.5600948365841112,-0.9090299407506479,1.469124777334759,0.5819916042289504,0.29034241481025996,0.2916491894186904,0.048435425014024,0.4053276440949323,-0.35689221908090835,-2.6123377402352994,
+  > AML14_DX,AML14,Marrow,RUNX,-0.1398965840594442,-0.5391794171386964,0.3992828330792523,2.6743711432940818,0.16738534261548726,2.5069858006785943,2.8090836323038784,0.24714593680122443,2.561937695502654,-3.011155924087085,
+  > AML15_DX,AML15,Marrow,RUNX,0.8701530397720642,-0.13911224248405252,1.0092652822561168,1.735968395973002,0.2230247045051331,1.512943691467869,1.9163973783949655,0.2920919047919641,1.6243054736030014,-1.8553474003288637,-3
+  > AML16_DX,AML16,Marrow,RUNX,0.7399918729228783,-0.2642928319938507,1.004284704916729,0.6038837790546066,0.28883695027210765,0.3150468287824989,1.5862060537193845,0.30922680222365684,1.2769792514957277,-1.6311479042704184,
+  > AML17_DX,AML17,Marrow,CBFB,0.1866335186375476,0.23816451312490483,-0.051530994487357235,-0.3960841119693738,0.34748674894486553,-0.7435708609142393,-0.4222826075166324,0.4244893675951886,-0.846771975111821,-4.02362016671
+  > AML18_DX,AML18,Blood,CBFB,-0.1964703912125185,-0.9565847926147486,0.7601144014022301,-0.5520494844675641,0.3523372298523036,-0.9043867143198676,-0.940698769045105,0.4552715565787292,-1.3959703256238343,-5.588083972212716
+
+score= 83  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_sigmahat__full19.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 8, "ilr_prog_vs_mature": 8, "ilr_stem_vs_committed": 8, "log_aux_clp": 6, "log_aux_erybaso": 6}
+  > ,ilr_stem_vs_committed,ilr_prog_vs_mature,ilr_gmp_vs_monodc,log_aux_erybaso,log_aux_clp
+  > ilr_stem_vs_committed,1.6330141002414749,1.0206017604872033,1.0842566023123332,0.6258408594863769,1.2230221719033478
+  > ilr_prog_vs_mature,1.0206017604872033,2.893213395026814,2.476371457468485,0.7995914423760255,0.258971636697237
+  > ilr_gmp_vs_monodc,1.0842566023123332,2.476371457468485,2.4981317878877976,0.8450421621720258,0.34229900290021165
+  > log_aux_erybaso,0.6258408594863769,0.7995914423760255,0.8450421621720258,1.0254702767477872,-0.17703147190878873
+  > log_aux_clp,1.2230221719033478,0.258971636697237,0.34229900290021165,-0.17703147190878873,3.2646128256615796
+
+score= 83  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_sigmahat__marrow_only.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 8, "ilr_prog_vs_mature": 8, "ilr_stem_vs_committed": 8, "log_aux_clp": 6, "log_aux_erybaso": 6}
+  > ,ilr_stem_vs_committed,ilr_prog_vs_mature,ilr_gmp_vs_monodc,log_aux_erybaso,log_aux_clp
+  > ilr_stem_vs_committed,2.223520228146446,1.1604602557983248,1.1904189448361793,0.10951635067296953,0.9931570421249748
+  > ilr_prog_vs_mature,1.1604602557983248,2.225557479337645,2.352716517068507,0.23074274402346845,-0.8675004802358499
+  > ilr_gmp_vs_monodc,1.1904189448361793,2.352716517068507,2.668575680756773,0.2868813608810301,-1.2016384427547386
+  > log_aux_erybaso,0.10951635067296953,0.23074274402346845,0.2868813608810301,0.2869307801693672,-0.3430024400624031
+  > log_aux_clp,0.9931570421249748,-0.8675004802358499,-1.2016384427547386,-0.3430024400624031,2.8352780280935037
+
+score= 83  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_plus_subgroup_sigmahat__no_AML23.csv
+  axis_text_hits: {"ilr_gmp_vs_monodc": 8, "ilr_prog_vs_mature": 8, "ilr_stem_vs_committed": 8, "log_aux_clp": 6, "log_aux_erybaso": 6}
+  > ,ilr_stem_vs_committed,ilr_prog_vs_mature,ilr_gmp_vs_monodc,log_aux_erybaso,log_aux_clp
+  > ilr_stem_vs_committed,1.4691057989289278,0.8234183354534624,0.8437657729211012,0.6014647627392078,0.7475532600273587
+  > ilr_prog_vs_mature,0.8234183354534624,2.378012603599902,2.265157944129968,0.7552429929000016,-0.41587206487168116
+  > ilr_gmp_vs_monodc,0.8437657729211012,2.265157944129968,2.6176173328471584,0.8047718403054133,-0.503383325926715
+  > log_aux_erybaso,0.6014647627392078,0.7552429929000016,0.8047718403054133,1.0699280375747235,-0.3694199047582515
+  > log_aux_clp,0.7475532600273587,-0.41587206487168116,-0.503383325926715,-0.3694199047582515,2.671249293596771
+
+
+Top candidates by axis
+----------------------
+
+[pc1]
+  score=151 path_hits=0 text_hits=85  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=3  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[pc2]
+  score=151 path_hits=0 text_hits=83  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=3  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=5  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[ilr_stem_vs_committed]
+  score=151 path_hits=0 text_hits=477  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=8  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[ilr_prog_vs_mature]
+  score=151 path_hits=0 text_hits=308  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[ilr_gmp_vs_monodc]
+  score=151 path_hits=0 text_hits=316  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=16  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[log_aux_clp]
+  score=151 path_hits=0 text_hits=216  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=10  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
+
+[log_aux_erybaso]
+  score=151 path_hits=0 text_hits=328  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/primary_training_GSE235063_results.txt
+  score=146 path_hits=0 text_hits=10  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/malignant_summary_definitions.json
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__full19.csv
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__marrow_only.csv
+  score=144 path_hits=0 text_hits=12  /Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/ou_equilibrium_coefficients__no_AML23.csv
