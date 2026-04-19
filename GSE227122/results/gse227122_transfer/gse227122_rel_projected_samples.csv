@@ -1,0 +1,2 @@
+sample_id,patient_id,timepoint,transfer_set,mrd_status,total_cells_qc,normal_cells_used_for_transfer,PC1_strict,PC2_strict,ecotype_label_pred_strict,cohort
+T11_Rel,T11,Rel,extension_posttherapy,,2898,2898,6.044162721017766,-2.4514726617245732,E3_NK_CD8Memory,GSE227122

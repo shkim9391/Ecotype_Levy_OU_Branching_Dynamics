@@ -1,0 +1,17 @@
+sample_id,patient_id,timepoint,transfer_set,mrd_status,total_cells_qc,normal_cells_used_for_transfer
+T10_Dx,T10,Dx,main_dx,nan,786,137
+T10_EOI,T10,EOI,extension_posttherapy,nan,555,548
+T11_Rel,T11,Rel,extension_posttherapy,nan,2898,2898
+T1_Dx,T1,Dx,main_dx,nan,3122,441
+T2_Dx,T2,Dx,main_dx,nan,2879,2874
+T3_Dx,T3,Dx,main_dx,nan,3581,3577
+T4_Dx,T4,Dx,main_dx,nan,3374,1665
+T5_Dx,T5,Dx,main_dx,nan,3324,3324
+T6_Dx,T6,Dx,main_dx,nan,4909,4813
+T6_EOI,T6,EOI,extension_posttherapy,nan,690,690
+T7_Dx,T7,Dx,main_dx,nan,2437,756
+T7_EOI,T7,EOI,extension_posttherapy,nan,2406,2406
+T8_Dx,T8,Dx,main_dx,nan,2679,2677
+T8_EOI,T8,EOI,extension_posttherapy,nan,516,516
+T9_Dx,T9,Dx,main_dx,nan,1775,682
+T9_EOI,T9,EOI,extension_posttherapy,nan,675,668
