@@ -1,0 +1,3 @@
+axis,intercept,slope,n_samples,source_table
+pc1,-0.7204905773887514,-0.14140917603698902,19,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_projected_ecotype_pcs.csv
+pc2,-0.030448996941945652,1.39992907981543,19,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_projected_ecotype_pcs.csv
