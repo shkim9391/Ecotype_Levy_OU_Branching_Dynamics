@@ -56,3 +56,8 @@ Ecotype_Levy_OU_Branching_Dynamics/
 ├── GSE227122/
 ├── GSE163634/
 └── Levy_OU_Branching/
+
+DOI
+10.5281/zenodo.19663281
+
+[![DOI](https://zenodo.org/badge/1206253966.svg)](https://doi.org/10.5281/zenodo.19663280)
