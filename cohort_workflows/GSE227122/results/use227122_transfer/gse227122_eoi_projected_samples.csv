@@ -1,0 +1,6 @@
+sample_id,patient_id,timepoint,transfer_set,mrd_status,total_cells_qc,normal_cells_used_for_transfer,PC1_strict,PC2_strict,ecotype_label_pred_strict,cohort
+T10_EOI,T10,EOI,extension_posttherapy,,555,548,8.936176809971647,-5.870414949364218,E3_NK_CD8Memory,GSE227122
+T6_EOI,T6,EOI,extension_posttherapy,,690,690,4.760103350175349,-1.014783862365105,E3_NK_CD8Memory,GSE227122
+T7_EOI,T7,EOI,extension_posttherapy,,2406,2406,4.073291634239167,-1.145870961963265,E3_NK_CD8Memory,GSE227122
+T8_EOI,T8,EOI,extension_posttherapy,,516,516,4.829651600563614,-2.247571190645377,E3_NK_CD8Memory,GSE227122
+T9_EOI,T9,EOI,extension_posttherapy,,675,668,9.410380096555132,-6.016256453255233,E3_NK_CD8Memory,GSE227122
