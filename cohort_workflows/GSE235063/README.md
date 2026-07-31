@@ -1,31 +1,35 @@
-GSE235063: Ecotype–Lévy–OU Dynamics
+# GSE235063: Ecotype–Lévy–OU Dynamics
 
-This directory contains the code, derived tables, and model outputs used to process the GSE235063 pediatric leukemia cohort and to build the Ecotype–Lévy–OU analysis workflow.
+This directory contains the code, derived tables, and model outputs used to process the **GSE235063** pediatric leukemia cohort and to build the Ecotype–Lévy–OU analysis workflow.
 
-The current release is organized to support transparency and reproducibility of the computational pipeline while keeping the repository lightweight during manuscript submission and revision.
-Figure image files are intentionally omitted at this stage and will be added in a later update after manuscript submission and project progression.
+The current release is organized to support **transparency and reproducibility of the computational pipeline** while keeping the repository lightweight during manuscript submission and revision.  
+**Figure image files are intentionally omitted at this stage** and will be added in a later update after manuscript submission and project progression.
 
-Overview
+## Overview
 
 The workflow in this directory proceeds from:
 
-preprocessing and cohort construction,
-treatment/outcome subgroup definition,
-ecotype assignment and refinement,
-preparation of Ornstein–Uhlenbeck (OU) model inputs,
-fitting and comparing compact equilibrium-style models,
-generation of manuscript summary figures.
+1. preprocessing and cohort construction,
+2. treatment/outcome subgroup definition,
+3. ecotype assignment and refinement,
+4. preparation of Ornstein–Uhlenbeck (OU) model inputs,
+5. fitting and comparing compact equilibrium-style models,
+6. generation of manuscript summary figures.
+
 The repository currently includes:
 
-analysis scripts,
-derived diagnosis-stage training tables,
-model coefficient, prediction, performance, and variance summaries.
-It currently does not include:
+- analysis scripts,
+- derived diagnosis-stage training tables,
+- model coefficient, prediction, performance, and variance summaries.
 
-rendered figure image files,
-raw large intermediate objects not needed for the present release.
-Directory structure
+It currently does **not** include:
 
+- rendered figure image files,
+- raw large intermediate objects not needed for the present release.
+
+## Directory structure
+
+```text
 GSE235063/
 ├── README.md
 ├── scripts/
