@@ -1,0 +1,6 @@
+parent,child
+state_HSC,state_Prog
+state_Prog,state_GMP
+state_GMP,state_MonoDC
+state_Prog,aux_EryBaso
+state_HSC,aux_CLP
