@@ -1,0 +1,45 @@
+GSE235063 DX→REL displacement summary (threshold >= 50)
+======================================================================
+
+n pairs = 21
+n stable = 10
+n switching = 11
+
+Stable vs switching summary:
+    group            metric  n     mean   median       sd      min      max
+   stable     disp_total_6d 10 2.086602 1.780559 1.073700 1.380846 4.944252
+   stable disp_malignant_3d 10 1.580380 1.434762 0.710552 0.568405 3.171935
+   stable       disp_tme_3d 10 1.187455 0.894592 1.069481 0.170871 3.792684
+switching     disp_total_6d 11 5.390149 4.633616 2.002521 2.999425 9.190841
+switching disp_malignant_3d 11 4.109240 3.709496 1.417850 2.688324 7.153147
+switching       disp_tme_3d 11 3.080210 2.029241 2.224402 1.171184 8.285771
+
+Permutation tests (switching minus stable mean difference):
+           metric  mean_switch_minus_stable  permutation_pvalue  mean_stable  mean_switching  median_stable  median_switching
+    disp_total_6d                  3.303547             0.00025     2.086602        5.390149       1.780559          4.633616
+disp_malignant_3d                  2.528860             0.00000     1.580380        4.109240       1.434762          3.709496
+      disp_tme_3d                  1.892755             0.01525     1.187455        3.080210       0.894592          2.029241
+
+Per-patient displacement table:
+sample Patient_ID Subgroup DX_branch_ge50 REL_branch_ge50  dx_to_rel_switch  dx_malignant_cells  rel_malignant_cells  disp_total_6d  disp_malignant_3d  disp_tme_3d
+  AML9     PAWRVC    KMT2A             B1              B2              True                7056                  981       9.190841           7.153147     5.770965
+ AML18     PAVGJG     CBFB             B2              B3              True                6864                 1193       8.710975           2.688324     8.285771
+ AML23     PAXLWH      FLT             B3              B2              True                 456                 7533       6.344115           4.898150     4.031863
+  AML6     PAWNYX    KMT2A             B2              B3              True                5150                 5023       5.670468           5.411650     1.693593
+  AML2     PAVDYE    KMT2A             B2              B3              True                4722                 5101       5.555315           5.250062     1.816143
+ AML24     PAXLEE      FLT             B2              B3              True                6553                  363       4.633616           2.705490     3.761744
+ AML12     PAWMKP     RUNX             B2              B3              True                7402                 3994       4.228260           3.709496     2.029241
+  AML5     PAWUAE    KMT2A             B1              B2              True                3538                 3017       4.185811           3.936676     1.422532
+ AML13     PAWNPG     RUNX             B2              B3              True                2648                 5300       3.909080           3.186696     2.264040
+  AML4     PAWHKK    KMT2A             B2              B3              True                4212                 4999       3.863729           3.500631     1.635232
+ AML25     PAUUWT    Other             B2              B3              True                5628                 3635       2.999425           2.761318     1.171184
+ AML17     PAXGDG     CBFB             B2              B2             False                6465                 3872       4.944252           3.171935     3.792684
+ AML15     PAWWXU     RUNX             B3              B3             False                5144                 3948       2.448431           1.911053     1.530585
+ AML22     PAVBFN      FLT             B3              B3             False                7341                 2809       2.242445           1.861907     1.249744
+ AML19     PAUXCD     CBFB             B2              B2             False                4919                 1284       2.002560           0.568405     1.920198
+  AML8     PAVJXG    KMT2A             B3              B3             False                4138                 4386       1.952415           1.941432     0.206802
+ AML26     PAUVAT    Other             B3              B3             False                7639                 6907       1.608703           1.599603     0.170871
+ AML10     PAWTSD    KMT2A             B2              B2             False                5002                 2299       1.482926           1.226791     0.833099
+ AML21     PAWHFW      FLT             B2              B2             False                3461                 4662       1.404457           1.256443     0.627575
+ AML27     PAVBCV    Other             B2              B2             False                3440                 3313       1.398983           1.269920     0.586903
+ AML16     PAUZRT     RUNX             B3              B3             False                5506                 3569       1.380846           0.996313     0.956085
