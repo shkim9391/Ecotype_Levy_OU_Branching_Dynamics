@@ -1,63 +1,115 @@
-# Ecotype_Levy_OU_Branching_Dynamics
+# Ecotype Lévy–OU–Branching Dynamics
 
 This repository accompanies the manuscript:
 
-**Ecological constraint and punctuated reorganization in pediatric leukemia evolution**
+## A therapy-aware multimodal dynamical scaffold reveals residual persistence and relapse-associated escape in pediatric leukemia
 
-It contains the code, derived tables, and selected outputs used to analyze pediatric leukemia evolution through an ecological-state framework that combines **constraint**, **branch-structured organization**, and **punctuated longitudinal reorganization**.
+The repository contains the code, derived tables, workflow documentation, and selected outputs used to construct and evaluate a diagnosis-anchored, therapy-aware disease-state scaffold for pediatric leukemia.
 
-The repository is organized to support transparency and reproducibility of the computational workflow across the main development cohort, secondary calibration cohort, cross-lineage transfer cohort, conservative bulk validation cohort, and the dedicated Lévy–OU–Branching analysis scaffold.
+The framework integrates complementary transcriptomic, inferred regulatory, ecological-composition, and clinical-phase feature blocks. Longitudinal disease-state movement is interpreted using an Ornstein–Uhlenbeck–Lévy–branching formulation that combines:
 
-## Repository overview
+- constrained or mean-reverting within-state dynamics;
+- branch-structured disease-state organization;
+- therapy-associated attractor displacement;
+- residual persistence;
+- and punctuated or jump-sensitive relapse-associated reorganization.
 
-The project is organized around five major analysis components:
+The repository is organized to distinguish the final manuscript workflow from cohort-specific preprocessing, supplementary analyses, legacy exploratory workflows, and manuscript-linked data products.
 
-- **`GSE235063/`**  
-  Primary training and development cohort.  
-  Includes diagnosis-stage cohort construction, ecotype assignment, OU input generation, compact model fitting, and figure-generation scripts.
-
-- **`GSE235923/`**  
-  Secondary calibration cohort.  
-  Includes manifest construction, cohort building, transfer from the primary reference, and projection into the primary ecotype backbone.
-
-- **`GSE227122/`**  
-  Cross-lineage transfer cohort.  
-  Includes ingestion, annotation, strict ecotype transfer, longitudinal comparison, and compact transfer plotting outputs.
-
-- **`GSE163634/`**  
-  Conservative serial bulk validation cohort.  
-  Includes bulk preparation, transfer artifact analysis, transfer-model rebuilding, PC1/PC2 recovery, and serial validation summaries.
-
-- **`Levy_OU_Branching/`**  
-  Dedicated Lévy–OU–Branching workflow.  
-  Includes diagnosis baseline construction, state-space QC, branch scaffold definition, longitudinal projection, transition sensitivity analysis, displacement analysis, jump-candidate ranking, and manuscript figure scripts.
-
-Each directory contains its own local `README.md` with more detailed information about scripts, derived outputs, and workflow logic.
+---
 
 ## Scientific scope
 
-The analyses in this repository were developed to study how pediatric leukemia samples occupy and move through a constrained ecological state space across diagnosis, treatment, remission-related states, and relapse.
+The analyses were developed to investigate how pediatric leukemia samples occupy and move through a shared disease-state landscape across diagnosis, treatment, remission-related states, and relapse.
 
-The computational logic emphasizes:
+The computational workflow emphasizes:
 
-- construction of ecological state representations from single-cell and bulk data,
-- projection of external cohorts into a shared reference framework,
-- comparison of stable versus switching longitudinal trajectories,
-- diagnosis-to-relapse displacement analysis,
-- identification of candidate punctuated or jump-like reorganizations,
-- evaluation of constrained dynamics through OU-style and Lévy-extended perspectives.
+- construction of diagnosis-anchored ecological and malignant-state representations;
+- integration of transcriptomic, inferred regulatory, ecological, and clinical information;
+- frozen-space projection of longitudinal and external samples;
+- comparison of branch-continuous and branch-switching trajectories;
+- diagnosis-to-relapse displacement analysis;
+- identification of upper-tail and jump-sensitive departures;
+- estimation of descriptive therapy-aware dynamic summaries;
+- external pediatric AML calibration;
+- cross-lineage transfer as a supplementary robustness analysis;
+- and conservative serial bulk validation.
 
-## Repository structure
+The OU–Lévy–branching formulation is used as a conceptual statistical scaffold. The reported dynamic quantities are interpretable summaries of attraction, displacement, instability, branch behavior, and jump-sensitive movement rather than fully identified continuous-time stochastic-process parameters.
+
+---
+
+## Repository organization
 
 ```text
 Ecotype_Levy_OU_Branching_Dynamics/
-├── GSE235063/
-├── GSE235923/
-├── GSE227122/
-├── GSE163634/
-└── Levy_OU_Branching/
-
-DOI
-10.5281/zenodo.19663281
-
-[![DOI](https://zenodo.org/badge/1206253966.svg)](https://doi.org/10.5281/zenodo.19663280)
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── environment.yml
+├── requirements.txt
+│
+├── manuscript_workflow/
+│   └── Multimodal_OU_Levy_Branching_Scaffold/
+│       ├── README.md
+│       ├── workflow_manifest.tsv
+│       ├── Figure_1/
+│       │   ├── scripts/
+│       │   ├── panels/
+│       │   └── final/
+│       ├── Figure_2/
+│       │   ├── scripts/
+│       │   ├── inputs/
+│       │   ├── derived/
+│       │   └── final/
+│       ├── Figure_3/
+│       │   ├── scripts/
+│       │   ├── inputs/
+│       │   ├── derived/
+│       │   ├── panels/
+│       │   └── final/
+│       ├── Figure_4/
+│       │   ├── scripts/
+│       │   ├── derived/
+│       │   ├── panels/
+│       │   └── final/
+│       ├── Figure_5/
+│       │   ├── scripts/
+│       │   ├── derived/
+│       │   ├── panels/
+│       │   └── final/
+│       ├── Figure_6/
+│       │   ├── scripts/
+│       │   ├── inputs/
+│       │   ├── derived/
+│       │   ├── panels/
+│       │   └── final/
+│       └── Figure_7/
+│           ├── scripts/
+│           ├── derived/
+│           ├── panels/
+│           └── final/
+│
+├── cohort_workflows/
+│   ├── GSE235063/
+│   ├── GSE235923/
+│   ├── GSE227122/
+│   └── GSE163634/
+│
+├── legacy/
+│   └── Levy_OU_Branching/
+│
+├── supplementary_data/
+│   ├── Supplementary_Data_1.xlsx
+│   ├── Supplementary_Data_2.xlsx
+│   ├── Supplementary_Data_3.xlsx
+│   ├── Supplementary_Data_4.xlsx
+│   ├── Supplementary_Data_5.xlsx
+│   ├── Supplementary_Data_6.xlsx
+│   └── Supplementary_Data_Guide.xlsx
+│
+└── docs/
+    ├── workflow_overview.md
+    ├── cohort_roles.md
+    ├── reproducibility_notes.md
+    └── manuscript_to_code_map.tsv
