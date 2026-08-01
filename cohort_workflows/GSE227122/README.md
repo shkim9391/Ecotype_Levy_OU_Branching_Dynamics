@@ -1,4 +1,4 @@
-GSE227122: Cross-Lineage Ecotype Transfer and Projection
+# GSE227122: Cross-Lineage Ecotype Transfer and Projection 
 
 This directory contains the code and result tables used to process the GSE227122 pediatric leukemia cohort for strict cross-cohort transfer within the Ecotype–Lévy–OU workflow.
 
@@ -6,7 +6,7 @@ In the broader project, this dataset is used to test whether the ecological stru
 
 As with the current repository release more broadly, rendered figure image files are not included at this stage. Figure-generation scripts are provided, and figure assets can be added later as the manuscript progresses.
 
-Overview
+## Overview
 
 The workflow in this directory proceeds from:
 
@@ -20,7 +20,8 @@ This directory is intended to support:
 transparent reporting of the strict transfer workflow,
 reuse of annotation and projection outputs,
 comparison of projected ecological organization across longitudinal states.
-Directory structure
+
+## Directory structure
 
 GSE227122/
 ├── README.md
