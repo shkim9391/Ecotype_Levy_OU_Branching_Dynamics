@@ -1,4 +1,4 @@
-GSE163634: Conservative Serial Bulk Validation of Ecotype Transfer
+# GSE163634: Conservative Serial Bulk Validation of Ecotype Transfer 
 
 This directory contains the code and derived tables used to process the GSE163634 bulk RNA-seq cohort as a serial validation dataset within the Ecotype–Lévy–OU workflow.
 
@@ -6,7 +6,7 @@ In the broader project, this dataset is used as a conservative external bulk val
 
 As with the current repository release more broadly, rendered figure image files are not included at this stage. Figure-generation scripts are provided, and figure assets can be added later as the manuscript progresses.
 
-Overview
+## Overview
 
 The workflow in this directory proceeds from:
 
@@ -20,7 +20,8 @@ This directory is intended to support:
 transparent reporting of the bulk transfer and validation workflow,
 reuse of score matrices and serial-delta summaries,
 evaluation of whether the transferred ecological structure remains interpretable in a conservative bulk setting.
-Directory structure
+
+## Directory structure
 
 GSE163634/
 ├── README.md
