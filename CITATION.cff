@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: >
+  If you use this software, workflow, or derived analysis in your research,
+  please cite both the associated manuscript and the archived Zenodo release.
+
+title: "Ecotype_Levy_OU_Branching_Dynamics"
+
+abstract: >
+  Reproducible computational workflows for therapy-aware multimodal ecological
+  modeling of pediatric leukemia using diagnosis-anchored disease-state
+  representations, frozen-space projection, and Ornstein–Uhlenbeck–Lévy–
+  Branching dynamic summaries.
+
+type: software
+
+authors:
+  - family-names: Kim
+    given-names: Seung-Hwan
+    affiliation: Fisher College; Dana-Farber Cancer Institute
+    orcid: "https://orcid.org/0000-0002-7702-2646"
+
+repository-code: "https://github.com/shkim9391/Ecotype_Levy_OU_Branching_Dynamics"
+
+license: MIT
+
+keywords:
+  - pediatric leukemia
+  - acute myeloid leukemia
+  - single-cell RNA-seq
+  - multimodal analysis
+  - ecological dynamics
+  - Ornstein-Uhlenbeck process
+  - Lévy process
+  - branching process
+  - cancer evolution
+  - precision oncology
+  - longitudinal analysis
+  - reproducible research
+
+doi: 10.5281/zenodo.19663280
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19663280
+    description: Archived software release
+
+preferred-citation:
+  type: article
+
+  authors:
+    - family-names: Kim
+      given-names: Seung-Hwan
+
+  title: >
+    A therapy-aware multimodal dynamical scaffold reveals residual persistence
+    and relapse-associated escape in pediatric leukemia
+
+  journal: npj Precision Oncology
+
+  status: submitted
+
+references:
+  - type: article
+    authors:
+      - family-names: Kim
+        given-names: Seung-Hwan
+    title: >
+      Modeling constrained tumor evolution through hybrid
+      Ornstein–Uhlenbeck and branching dynamics
+    journal: iScience
+    year: 2026
+    doi: 10.1016/j.isci.2026.116970
+
+  - type: article
+    authors:
+      - family-names: Kim
+        given-names: Seung-Hwan
+    title: >
+      A hybrid Ornstein-Uhlenbeck-Branching framework unifies microbial and
+      pediatric tumor evolution
+    journal: Frontiers in Oncology
+    year: 2026
+    doi: 10.3389/fonc.2026.1727973
