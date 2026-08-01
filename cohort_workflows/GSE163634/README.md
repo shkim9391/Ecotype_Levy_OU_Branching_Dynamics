@@ -1,28 +1,50 @@
-# GSE163634: Conservative Serial Bulk Validation of Ecotype Transfer 
+# GSE163634: Conservative Serial Bulk Validation of Disease-State Transfer
 
-This directory contains the code and derived tables used to process the GSE163634 bulk RNA-seq cohort as a serial validation dataset within the Ecotype–Lévy–OU workflow.
+This directory contains the scripts and derived tables used to process the **GSE163634 bulk RNA-seq cohort** as the conservative cross-modality validation dataset within the **Ecotype–Lévy–OU–Branching** framework.
 
-In the broader project, this dataset is used as a conservative external bulk validation setting. Rather than redefining the ecological structure from scratch, the workflow tests whether signals learned from the single-cell reference framework remain informative when transferred into a longitudinal bulk-expression context.
+Unlike the discovery and external AML cohorts, GSE163634 is **not** used to construct the diagnosis-anchored disease-state scaffold. Instead, it serves as a stringent validation cohort that evaluates whether disease-state summaries learned from the single-cell reference remain interpretable after transfer to a lower-resolution longitudinal bulk RNA-seq dataset.
 
-As with the current repository release more broadly, rendered figure image files are not included at this stage. Figure-generation scripts are provided, and figure assets can be added later as the manuscript progresses.
+The goal of this workflow is not to reproduce the complete single-cell latent geometry or branch-level ecological organization, but rather to determine whether clinically meaningful disease-state ordering is preserved following transfer.
 
-## Overview
+---
 
-The workflow in this directory proceeds from:
+## Analytical role
 
-preparation of the GSE163634 bulk-expression input space,
-identification of transfer artifacts and axis-specific transfer issues,
-rebuilding and applying the transfer model,
-recovery of additional projected axes from all-cell pseudobulk references,
-serial bulk validation and summary-statistic generation.
-This directory is intended to support:
+Within the manuscript workflow, GSE163634 provides a **conservative serial bulk validation** of the diagnosis-anchored disease-state scaffold.
 
-transparent reporting of the bulk transfer and validation workflow,
-reuse of score matrices and serial-delta summaries,
-evaluation of whether the transferred ecological structure remains interpretable in a conservative bulk setting.
+Specifically, the workflow evaluates whether transferred disease-state summaries preserve the expected directional organization among:
+
+- healthy controls,
+- diagnosis leukemia,
+- early treatment response,
+- later treatment response.
+
+The resulting transferred variables are used for the bulk-validation analyses presented in **Figure 7**.
+
+---
+
+## Workflow overview
+
+The workflow proceeds through five major stages:
+
+1. preparation of the GSE163634 bulk-expression input space;
+2. identification of transfer artifacts and axis-specific transfer limitations;
+3. reconstruction and application of the frozen transfer model;
+4. recovery of additional projected ecological axes from all-cell pseudobulk references;
+5. generation of serial bulk-validation summaries and plotting tables.
+
+These analyses support:
+
+- transparent reporting of the bulk-transfer workflow;
+- reproducible generation of transferred score matrices;
+- serial diagnosis-to-response comparisons;
+- evaluation of disease-state ordering under lower-resolution measurement.
+
+---
 
 ## Directory structure
 
+```text
 GSE163634/
 ├── README.md
 ├── scripts/
@@ -71,3 +93,26 @@ GSE163634/
     ├── gse163634_bulk_heatmap_matrix.csv
     ├── gse163634_bulk_paired_plot_table.csv
     └── gse163634_bulk_forest_plot_table.csv
+```
+
+---
+
+## Key outputs
+
+The primary outputs used by the manuscript workflow include:
+
+- `gse163634_bulk_score_matrix_with_pc12.csv`
+- `gse163634_bulk_serial_deltas_with_pc12.csv`
+- `gse163634_bulk_validation_summary.csv`
+- `gse163634_bulk_leukemia_vs_control_stats.csv`
+- `gse163634_bulk_paired_plot_table.csv`
+
+These files provide the transferred disease-state variables and statistical summaries used for the serial bulk validation presented in **Figure 7**.
+
+---
+
+## Notes
+
+- The transferred disease-state summaries are derived from the diagnosis-anchored single-cell reference and should not be interpreted as independently learned bulk disease states.
+- Bulk RNA-seq does not preserve the full ecological and branch-level resolution of the single-cell scaffold.
+- Consequently, this workflow emphasizes **directional consistency** and **clinical interpretability** rather than exact reconstruction of the original latent space.
