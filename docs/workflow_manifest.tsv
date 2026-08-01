@@ -1,0 +1,5 @@
+step	figure	script	input	output	cohort	analysis_role	included_in_main_manuscript	included_in_supplement	notes
+1	Figure 1	figure1_multimodal_therapy_aware_ou_levy_branching_full.py	NA	Figure1_multimodal_therapy_aware_scaffold_full.pdf	NA	conceptual framework	yes	no	Final Figure 1
+2	Figure 2	figure2_plotting_script_filled.py	dx_primary_training_malignant_frozen_transfer.h5ad	Figure2_multimodal_latent_landscape_full.pdf	GSE235063	diagnosis scaffold	yes	no	19 diagnosis samples; 98,692 cells
+3	Figure 3	longitudinal_cohort_manifest.py	GSE235063_RAW	longitudinal_cohort_manifest_processed.csv	GSE235063	manifest construction	yes	yes	75 samples total
+4	Figure 3	01_build_longitudinal_malignant_object.py	longitudinal_cohort_manifest_processed.csv	gse235063_longitudinal_malignant_raw.h5ad	GSE235063	longitudinal object construction	yes	yes	QC outputs retained
