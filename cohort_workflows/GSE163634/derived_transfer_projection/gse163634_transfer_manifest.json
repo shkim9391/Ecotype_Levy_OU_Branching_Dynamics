@@ -1,0 +1,42 @@
+{
+  "gene_order_file": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/train_gene_order.txt",
+  "target_table": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/frozen_gse235063_model/training_sample_summary_with_transfer_columns.csv",
+  "train_expression": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235063/derived_dx_primary_training/rebuilt_transfer_expression/gse235063_malignant_pseudobulk_log2cpm_ordered_by_frozen_genes.tsv.gz",
+  "train_expression_orientation": "sample_by_gene",
+  "gse163634_matrix": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_bulk_start/gse163634_log2fpkm_frozen_intersection_samples_by_genes.tsv.gz",
+  "calibration_table": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv",
+  "n_axes_in_target_table": 5,
+  "axes_in_target_table": [
+    "ilr_stem_vs_committed",
+    "ilr_prog_vs_mature",
+    "ilr_gmp_vs_monodc",
+    "log_aux_clp",
+    "log_aux_erybaso"
+  ],
+  "axes_modeled": [
+    "ilr_gmp_vs_monodc",
+    "ilr_prog_vs_mature",
+    "ilr_stem_vs_committed",
+    "log_aux_clp",
+    "log_aux_erybaso"
+  ],
+  "axes_missing_model": [
+    "pc1",
+    "pc2"
+  ],
+  "n_shared_genes_transfer": 17404,
+  "n_training_samples_used": 19,
+  "n_gse163634_samples_scored": 65,
+  "calibration_axes_inferred": [
+    "ilr_stem_vs_committed",
+    "log_aux_clp",
+    "log_aux_erybaso"
+  ],
+  "outputs": {
+    "score_matrix": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_transfer_projection/gse163634_bulk_score_matrix.csv",
+    "serial_deltas": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_transfer_projection/gse163634_bulk_serial_deltas.csv",
+    "calibration": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_transfer_projection/gse235923_inferred_axis_calibration.csv",
+    "model_summary": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_transfer_projection/gse235063_rebuilt_transfer_model_summary.csv",
+    "coefficients_long": "/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE163634/derived_transfer_projection/gse235063_rebuilt_transfer_coefficients_long.csv"
+  }
+}

@@ -1,0 +1,8 @@
+axis,intercept,slope,source_table,n_samples,pred_col,obs_col,observed_table
+pc1,0.0,1.0,identity_fallback,0,,,
+pc2,0.0,1.0,identity_fallback,0,,,
+ilr_stem_vs_committed,-2.7755575615628914e-17,1.0000000000000002,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv,19,ilr_stem_vs_committed,ilr_stem_vs_committed,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+ilr_prog_vs_mature,0.0,1.0,identity_fallback,0,,,
+ilr_gmp_vs_monodc,0.0,1.0,identity_fallback,0,,,
+log_aux_clp,1.7763568394002505e-15,1.0000000000000002,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv,19,log_aux_clp,log_aux_clp,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
+log_aux_erybaso,-8.881784197001252e-16,0.9999999999999998,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_outcomes.csv,19,log_aux_erybaso,log_aux_erybaso,/Users/seung-hwan.kim/Desktop/Ecotype_OU_Branching/GSE235923/derived_secondary_calibration/gse235923_dx_secondary_calibration_table.csv
