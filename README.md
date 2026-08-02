@@ -45,7 +45,6 @@ The OU–Lévy–branching formulation is used as a conceptual statistical scaff
 Ecotype_Levy_OU_Branching_Dynamics/
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── environment.yml
 ├── requirements.txt
 │
