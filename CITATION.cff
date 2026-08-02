@@ -1,0 +1,11 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it."
+
+title: Ecotype_Levy_OU_Branching_Dynamics
+
+authors:
+  - family-names: Kim
+    given-names: Seung-Hwan
+
+version: v1.0.0-npjpo-submission
+date-released: 2026-08-02
