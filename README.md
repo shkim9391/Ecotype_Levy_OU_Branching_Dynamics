@@ -166,3 +166,5 @@ Ecotype_Levy_OU_Branching_Dynamics/
     ├── cohort_roles.md
     ├── reproducibility_notes.md
     └── manuscript_to_code_map.tsv
+
+The analysis code and reproducible workflow are available at GitHub and archived on Zenodo under DOI 10.5281/zenodo.21753569.
