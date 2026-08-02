@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+
+title: "Ecotype_Levy_OU_Branching_Dynamics"
+
+type: software
+
+authors:
+  - family-names: Kim
+    given-names: Seung-Hwan
+    orcid: "https://orcid.org/0000-0002-7702-2646"
+
+repository-code: "https://github.com/shkim9391/Ecotype_Levy_OU_Branching_Dynamics"
+
+license: MIT
+
+doi: 
+
+keywords:
+  - pediatric leukemia
+  - cancer evolution
+  - Ornstein-Uhlenbeck
+  - Levy process
+  - branching process
+  - ecological dynamics
